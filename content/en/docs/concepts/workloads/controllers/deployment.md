@@ -352,7 +352,7 @@ Waiting for rollout to finish: 1 out of 3 new replicas have been updated...
 Press Ctrl-C to stop the above rollout status watch. For more information on stuck rollouts,
 [read more here](#deployment-status).
 
-You will see that the number of old replicas (nginx-deployment-1564180365 and nginx-deployment-2035384211) is 2, and new replicas (nginx-deployment-3066724191) is 1.
+You will see that the number of old replicas (nginx-deployment-1564180365 and nginx-deployment-2035384211) is 3, and new replicas (nginx-deployment-3066724191) is 1.
 
 ```shell
 $ kubectl get rs
